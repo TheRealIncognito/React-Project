@@ -1,6 +1,6 @@
 // Imports the `React` module and the `Component` class from that module.
 import React, { Component } from 'react';
-import Alphabet from "./mystuff/alphabet";
+import Portfolio from "./mystuff/portfolio";
 // Creates an `App` class that is a child of the `Component` class.
 class App extends Component {
 
@@ -9,7 +9,7 @@ class App extends Component {
     return (
 
       <div className='app'>
-        <Alphabet/>
+        <Portfolio/>
       </div>
 
     );
